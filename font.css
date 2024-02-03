@@ -1,0 +1,413 @@
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    src: url("Montsserrat-Regular.woff2") format("woff2");
+}
+
+ @font-face {
+    font-family: 'Montserrat';
+    src: url('../FONTS/Montserrat/Montserrat-SemiBold.woff') format('woff');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../FONTS/Montserrat/Montserrat-Medium.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../FONTS/Montserrat/Montserrat-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../FONTS/Montserrat/Montserrat-Italic.woff') format('woff');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../FONTS/Open_Sans/OpenSans-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navig__choose_button {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: sans-serif;
+}
+
+.main_beginning {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;      
+}
+
+.main_title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.main_tags {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+}
+
+#self-esteem {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+}
+
+.heading {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.author .article_date {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+}
+
+.article_start {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.heading_card {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.article_date_other {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    letter-spacing: 0.25px;
+}
+
+.main__button {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color:#FFFFFF;
+    line-height: 24px; 
+}
+
+.nav_inf {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+.footer-top__nav-inf {
+    color:#FFFFFF;
+    text-wrap: nowrap;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.footer-top__mid-phrase {
+    color: #FFFFFF;
+}
+
+.footer-top__mid-cond {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px; 
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+
+.footer-top__mid-input_area-email {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+\\article\\
+
+.article__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.article__base_title_details {
+    color: #494949;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.article__base_ex-h {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+.article__base_content_list {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    text-decoration-line: underline;
+}
+
+.article__base_psychotherapy-h {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.article__base_psychotherapy-para {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.article__base_psychotherapy-quote-author {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+.article__base_psychotherapy-quote-para {
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.article__base_que-anxiety-list-item {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.article__base_second-photo-phrase {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%; 
+    letter-spacing: 0.25px;
+    color: #868686;
+}
+
+.article__base_para {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.article__base_quote-center-text {
+    max-width: 70%;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.article__base_row-photo-phrase {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.article__base_ex-para {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.article__base_bottom-tag {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #2963A3;
+    text-decoration: none;
+}
+
+.button-choose {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color:#35B3A9;
+    height: 48px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFF;
+}
+
+.aside-base__card-first-inf_h {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+.aside-base__card-first-inf_p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.aside-base__card-second_start-p1 {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    letter-spacing: 0.25px;
+}
+
+.aside-base__card-second_start-p {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    letter-spacing: 0.25px;
+}
+
+.aside-base__card-second_start-cont_name {
+    color: #333;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+}
+
+.aside-base__card-second_start-cont_job {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+}
+
+.aside-base__card-second_start-cont_ex {
+    color: var(--Neutrals-N-66, #A2A7B1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;  
+}
+
+.aside-base__card-second_finish-h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+.aside-base__card-second_finish-point {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+
+.aside-base__card-thr-h {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aside-base__card-se-h {
+    color: #2963A3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+}
+
+.aside-base__card-se-p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.aside-base__card-se-h3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.main-bottom__content_inf-h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.main-bottom__content_inf-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: -20px;
+}
